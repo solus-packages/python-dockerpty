@@ -2,14 +2,14 @@
     <Source>
         <Name>python-dockerpty</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Pseudo-tty handler for docker Python client</Summary>
         <Description xml:lang="en">Pseudo-tty handler for docker Python client</Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-dockerpty</Name>
@@ -17,19 +17,6 @@
         <Description xml:lang="en">Pseudo-tty handler for docker Python client</Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty-0.4.1-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty-0.4.1-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty-0.4.1-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty-0.4.1-py2.7.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty-0.4.1-py2.7.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/__init__.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/io.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/io.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/pty.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/pty.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/tty.py</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/dockerpty/tty.pyc</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/dockerpty-0.4.1-py3.6.egg-info/PKG-INFO</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/dockerpty-0.4.1-py3.6.egg-info/SOURCES.txt</Path>
             <Path fileType="library">/usr/lib/python3.6/site-packages/dockerpty-0.4.1-py3.6.egg-info/dependency_links.txt</Path>
@@ -46,12 +33,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-01-30</Date>
+        <Update release="4">
+            <Date>2019-06-05</Date>
             <Version>0.4.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
